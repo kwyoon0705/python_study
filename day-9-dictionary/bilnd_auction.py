@@ -9,7 +9,7 @@ def find_bid_winner(bid_data_list):
             highest_bid = bid_data["bid"]
             winner_name = bid_data["name"]
     system("cls")
-    print(f"Winner is {winner_name}. The Bid is ${highest_bid}.")
+    print(f"The winner is {winner_name}. The Bid is ${highest_bid}.")
     
 
 
