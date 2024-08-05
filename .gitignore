@@ -1,3 +1,4 @@
 left.
 *.pyc
 __pycache__
+*.idea
