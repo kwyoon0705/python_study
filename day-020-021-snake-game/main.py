@@ -15,17 +15,15 @@ food = Food()
 scoreboard = Scoreboard()
 
 screen.listen()
-
-screen.update()
+screen.onkeypress(snake.move_up, "Up")
+screen.onkeypress(snake.move_down, "Down")
+screen.onkeypress(snake.move_left, "Left")
+screen.onkeypress(snake.move_right, "Right")
 
 game_is_on = True
 while game_is_on:
     screen.update()
     time.sleep(0.01)
-    screen.onkeypress(snake.move_up, "Up")
-    screen.onkeypress(snake.move_down, "Down")
-    screen.onkeypress(snake.move_left, "Left")
-    screen.onkeypress(snake.move_right, "Right")
 
     if snake.head.distance(food) <= 15:
         food.relocate()
