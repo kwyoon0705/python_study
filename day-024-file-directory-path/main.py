@@ -1,3 +1,2 @@
-with open("my_file.txt") as file:
-    contents = file.read()
-    print(contents)
+with open("new_textfile.txt", mode="w") as file:
+    file.write("I created text file using python.")
