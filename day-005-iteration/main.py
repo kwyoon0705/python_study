@@ -13,11 +13,11 @@ password = ""
 password_list = []
 
 
-for iterat in range(1, nr_letters + 1):
+for iterate in range(1, nr_letters + 1):
     password_list.append(letters[random.randint(0,len(letters)-1)])
-for iterat in range(1, nr_symbols + 1):
+for iterate in range(1, nr_symbols + 1):
     password_list.append(symbols[random.randint(0,len(symbols)-1)])
-for iterat in range(1, nr_numbers + 1):
+for iterate in range(1, nr_numbers + 1):
     password_list.append(numbers[random.randint(0,len(numbers)-1)])
 
 random.shuffle(password_list)
