@@ -1,7 +1,7 @@
 import requests
 
-API_KEY = "ca037d9f3aa00b3ff398a749732b5dec"
-APP_ID = "77933976"
+API_KEY = ""
+APP_ID = ""
 GENDER = "MALE"
 WEIGHT_KG = "110"
 HEIGHT_KG = "182"
