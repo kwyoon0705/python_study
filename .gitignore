@@ -2,3 +2,6 @@ left.
 *.pyc
 __pycache__
 *.idea
+/.env
+.env
+/key_data.txt
